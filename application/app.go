@@ -30,4 +30,6 @@ func (a *App) Start(ctx context.Context) error {
 		return fmt.Errorf("failed to start server: %w", err)
 	}
 
+	return nil
+
 }
